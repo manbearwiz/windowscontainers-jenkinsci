@@ -1,4 +1,4 @@
-FROM windows-java:jre1.8.0_91
+FROM openjdk:windowsservercore
 
 SHELL ["powershell"]
 ARG BASE_URL
